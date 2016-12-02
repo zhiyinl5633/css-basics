@@ -11,5 +11,70 @@
     right: 0;
 }
 
+
 /*Write your CSS rules below!*/
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h1,h2 {
+    font-family: "Oswald", "Helvetica Neue";
+    text-align: center;
+    color: #2884C3;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: "Crimson Text", "Arial";
+    line-height: 1.5;
+}
+
+code {
+    color: #CE234C;
+    background-color: lightgray;
+}
+
+.snippet {
+    background: lightgray;
+}
+
+#font-practice {
+    color: green;
+    font-style: italic;
+}
+
+a:link{
+    color: green;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.container{
+    background-color: #b3ffda;
+}
+
+
+
 
